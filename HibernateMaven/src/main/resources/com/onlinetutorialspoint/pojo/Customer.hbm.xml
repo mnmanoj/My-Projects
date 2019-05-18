@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="onlinetutorialspoint" name="com.onlinetutorialspoint.pojo.Customer" table="customer">
+        <id name="customerId" column="custid" type="string">
+            <generator class="com.onlinetutorialspoint.service.CustomIdGenerator"/>
+        </id>
+        <property name="customerName" column="custname" type="string" length="50"/>
+        <property name="city" column="city" type="string" length="50"/>
+    </class>
+</hibernate-mapping>

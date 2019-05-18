@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?><OTA_HotelDescriptiveContentNotifRQ  xmlns='http://www.opentravel.org/OTA/2003/05'               TimeStamp='2015-06-11T11:20:33'               Target='Production' Version='3.14' PrimaryLangID='en'>	
+    <POS CultSwitchUUID='dc4f5e9f-a494-479b-9370-acc549a31182-1519366263'> 
+        <Source AgentSine='' AgentDutyCode=''>  
+            <RequestorID Type='10' ID='123456'/> 
+            <BookingChannel Type=''/> 
+        </Source>
+        <Source>
+            <RequestorID ID='123456' Type='1' URL='urn:cultuzz:cultswitch:auth:username'/>
+            <BookingChannel Type='4'/>
+        </Source>
+    </POS>
+    <HotelDescriptiveContents HotelCode='123456'>
+        <HotelDescriptiveContent CurrencyCode='1' LanguageCode='2'>
+            <TPA_Extensions>
+                <ChannelInfos>
+                    <ChannelInfo CodeContext='DistributorsConnection' DistributorID='4561' Status='2'></ChannelInfo>
+                </ChannelInfos>
+            </TPA_Extensions>
+        </HotelDescriptiveContent>
+    </HotelDescriptiveContents>
+</OTA_HotelDescriptiveContentNotifRQ>
